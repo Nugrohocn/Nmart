@@ -6,7 +6,9 @@ const Navbar = () => {
     <div className="flex items-center w-full h-16 shadow-xl bg-white px-5">
       {/* Bagian Kiri - Brand */}
       <div className="flex items-center">
-        <h2 className="text-xl font-bold text-blue-500">Nmart</h2>
+        <a href="/" className="text-xl font-bold text-blue-500">
+          Nmart
+        </a>
       </div>
 
       {/* Bagian Tengah - Search (Hidden di Mobile) */}
